@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laba3</string>
+    <string name="red_green">Red - Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+</resources>
