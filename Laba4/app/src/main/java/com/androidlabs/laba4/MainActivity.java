@@ -1,4 +1,4 @@
-package com.konstantin.laba4;
+package com.androidlabs.laba4;
 
 import android.os.Bundle;
 import android.view.View;

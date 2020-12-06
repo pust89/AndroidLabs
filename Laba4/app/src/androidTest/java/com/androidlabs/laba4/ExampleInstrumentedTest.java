@@ -1,4 +1,4 @@
-package com.konstantin.laba4;
+package com.androidlabs.laba4;
 
 import android.content.Context;
 
