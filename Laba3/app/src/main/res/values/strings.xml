@@ -4,4 +4,7 @@
     <string name="red">Red</string>
     <string name="blue">Blue</string>
     <string name="black">Black</string>
+    <string name="textview">TextView</string>
+    <string name="yellow_blue">Yellow - Blue</string>
+    <string name="black_white">Black - White</string>
 </resources>

@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
+    android:paddingStart="@dimen/dims_16dp"
+    android:paddingEnd="@dimen/dims_16dp"
     tools:context=".MainActivity">
 
 
@@ -14,20 +14,20 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="TextView"
-        android:textSize="24sp"
+        android:layout_marginTop="@dimen/dims_8dp"
+        android:layout_marginBottom="@dimen/dims_8dp"
+        android:text="@string/textview"
+        android:textSize="@dimen/text_size_24sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/dims_8dp"
+        android:layout_marginBottom="@dimen/dims_8dp"
         android:text="TextView"
-        android:textSize="24sp"
+        android:textSize="@dimen/text_size_24sp"
         android:textStyle="bold" />
 
     <Button
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/yellow"
-        android:text="Yellow - Blue"
+        android:text="@string/yellow_blue"
         android:textColor="@color/blue" />
 
     <Button
@@ -54,22 +54,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/black"
-        android:text="Black - White"
+        android:text="@string/black_white"
         android:textColor="@color/white" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp">
+        android:padding="@dimen/dims_8dp">
 
         <Button
             android:id="@+id/btnRed"
             android:onClick="btnRedClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/red"
             android:text="@string/red" />
@@ -79,8 +79,8 @@
             android:onClick="btnBlueClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/blue"
             android:text="@string/blue" />
@@ -90,8 +90,8 @@
             android:onClick="btnBlackClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/black"
             android:text="@string/black" />

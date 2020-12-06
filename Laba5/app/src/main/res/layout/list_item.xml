@@ -5,5 +5,5 @@
     android:layout_height="wrap_content"
     android:background="@color/pink"
     android:text=""
-    android:textSize="24sp"
+    android:textSize="@dimen/text_size_24sp"
     android:textStyle="bold" />

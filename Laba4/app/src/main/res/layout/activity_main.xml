@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
+    android:paddingStart="@dimen/dims_16dp"
+    android:paddingEnd="@dimen/dims_16dp"
     tools:context=".MainActivity">
 
 
@@ -14,36 +14,36 @@
         android:id="@+id/etFirstOperand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/dims_8dp"
+        android:layout_marginBottom="@dimen/dims_8dp"
         android:ems="10"
         android:inputType="number|numberDecimal"
-        android:textSize="24sp"
+        android:textSize="@dimen/test_size_24sp"
         android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etSecondOperand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/dims_8dp"
+        android:layout_marginBottom="@dimen/dims_8dp"
         android:ems="10"
         android:inputType="number|numberDecimal"
-        android:textSize="24sp"
+        android:textSize="@dimen/test_size_24sp"
         android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp">
+        android:padding="@dimen/dims_8dp">
 
         <Button
             android:id="@+id/btnPlus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:onClick="btnPlusClick"
             android:text="@string/plus" />
@@ -52,8 +52,8 @@
             android:id="@+id/btnMinus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:onClick="btnMinusClick"
             android:text="@string/minus" />
@@ -63,14 +63,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp">
+        android:padding="@dimen/dims_8dp">
 
         <Button
             android:id="@+id/btnMultiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:onClick="btnMultiplyClick"
             android:text="@string/multiply" />
@@ -79,8 +79,8 @@
             android:id="@+id/btnDivision"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginStart="@dimen/dims_8dp"
+            android:layout_marginEnd="@dimen/dims_8dp"
             android:layout_weight="1"
             android:onClick="btnDivisionClick"
             android:text="@string/division" />
@@ -91,7 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textSize="@dimen/test_size_24sp"
         android:textStyle="bold" />
 </LinearLayout>
 
