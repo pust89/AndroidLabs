@@ -1,4 +1,4 @@
-package com.konstantin.labathree;
+package com.androidlabs.labathree;
 
 import org.junit.Test;
 

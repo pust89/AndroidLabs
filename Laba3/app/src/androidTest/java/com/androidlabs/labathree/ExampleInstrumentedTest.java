@@ -1,4 +1,4 @@
-package com.konstantin.labathree;
+package com.androidlabs.labathree;
 
 import android.content.Context;
 
