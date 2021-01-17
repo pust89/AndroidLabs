@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dims_8dp"
+        android:backgroundTint="@color/background_button"
+        android:text="@string/title_btn_1"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_24sp" />
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dims_8dp"
+        android:backgroundTint="@color/background_button"
+        android:text="@string/title_btn_2"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_24sp" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dims_8dp"
+        android:backgroundTint="@color/background_button"
+        android:text="@string/title_btn_3"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_24sp" />
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dims_8dp"
+        android:backgroundTint="@color/background_button"
+        android:text="@string/title_btn_4"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_24sp" />
+
+</LinearLayout>
+

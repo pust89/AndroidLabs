@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laba1</string>
+    <string name="title_btn_1">Btn1</string>
+    <string name="title_btn_2">Btn2</string>
+    <string name="title_btn_3">Btn3</string>
+    <string name="title_btn_4">Btn4</string>
+    <string name="title_stars">***</string>
+</resources>
