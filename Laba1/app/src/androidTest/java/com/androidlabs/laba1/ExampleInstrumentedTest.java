@@ -1,4 +1,4 @@
-package com.pustovit.laba1;
+package com.androidlabs.laba1;
 
 import android.content.Context;
 
